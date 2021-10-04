@@ -1,5 +1,5 @@
 import { gql } from 'graphql-tag';
-export const getMe = gql`
+export const GET_ME = gql`
   {
     me {
       _id
