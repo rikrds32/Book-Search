@@ -68,7 +68,7 @@ const SearchBooks = () => {
       const response = await saveBook(bookToSave, token);
 
       if (!response.ok) {
-        throw new Error('something went wrong!');
+        throw new Error('sorry something is wrong');
       }
 
       // if book successfully saves to user's account, save book id to state
